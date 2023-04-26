@@ -1,5 +1,9 @@
-//
-//Ferrari Franco
+// DOJO - SPD 2023 - DIV B - GRUPO H
+//- Franco Ferrari 
+//- Diego Leonard Gloria Salas
+//- Adrian Filippelli
+//- Quimey Alejo Fontan
+
 #define LED_ROJO_UNO 13
 #define LED_ROJO_DOS 12
 #define LED_AMARILLO_UNO 11
