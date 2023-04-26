@@ -4,7 +4,10 @@
 
 
 ## Integrantes 
-- Esteban Marcelo Quiroz  
+- Franco Ferrari 
+- Diego Leonard Gloria Salas
+- Adrian Filippelli
+- Quimey Alejo Fontan
 
 
 ## Proyecto: Contador binario.
