@@ -42,7 +42,9 @@ void loop()
 
 void prender(int led_prender,int led_prender2,int demora_prender)
 {
-
+    digital.write(led_prender, HIGH)
+    digital.write(led_prender2, HIGH)
+    
     if(led_prender == LED_ROJO_UNO && led_prender2 == LED_ROJO_DOS)
     {
 
@@ -62,19 +64,22 @@ void prender(int led_prender,int led_prender2,int demora_prender)
 
 }
 
+
 void apagar(int led_apagar,int led_apagar2,int demora_apagar)
     {
-    Serial.println("Apagando leds");
-    digitalWrite(led_apagar, LOW);
-    digitalWrite(led_apagar2, LOW);
-    delay(demora_apagar);
+        Serial.println("Apagando leds");
+        digitalWrite(led_apagar, LOW);
+        digitalWrite(led_apagar2, LOW);
+        delay(demora_apagar);
     }
+
 
 void sonar(int piezo, int demora_sonar)
     { 
-    const int NUM_REPETICIONES = 10;
+        const int NUM_REPETICIONES = 10;
     
-    for (int i = 0; i < NUM_REPETICIONES; i++) {
+    for (int i = 0; i < NUM_REPETICIONES; i++) 
+    {
         tone(piezo, 600, 250);
         delay(demora_sonar);
     }
