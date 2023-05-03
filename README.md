@@ -18,11 +18,9 @@
 El proyecto consta de una serie de semaforos funcionales con su propio sistema de tiempo junto con su feedback sonoro (buzzer) funcional y con un pulsador encargado de extender los tiempos de duracion de cruze para peatones.
 
 ## Función principal
-Esta funcion se encarga de encender y apagar los leds.
+Estas funciones se encargan de encender y apagar los leds.
 
-B0, B1, B2, B3 son #define que utilizamos para agregar los leds, asociandolo a pines de la placa arduino.
-
-(Breve explicación de la función)
+led_prender, led_prender2, led_apagar, led_apagar2 y demora_prender son parametros que utilizamos para agregar los leds, asociandolo a pines de la placa arduino los cuales estan definidos al comienzo del codigo con #define.
 
 ~~~ C++ 
 void prender(int led_prender,int led_prender2,int demora_prender)
@@ -39,7 +37,7 @@ void apagar(int led_apagar,int led_apagar2)
 }
 ~~~
 
-## :robot: Link al proyecto
+## :nerd_face::point_up: Link al proyecto
 - [proyecto](https://www.tinkercad.com/things/aOYiibnDjWu)
 ## :tv: Link al video del proceso
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
