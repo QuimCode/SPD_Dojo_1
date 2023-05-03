@@ -22,6 +22,8 @@ Estas funciones se encargan de encender y apagar los leds.
 
 led_prender, led_prender2, led_apagar, led_apagar2 y demora_prender son parametros que utilizamos para agregar los leds, asociandolo a pines de la placa arduino los cuales estan definidos al comienzo del codigo con #define.
 
+Aclarar que en los siguientes ejercicios las funciones de "prender" y "apagar" se complejizan un poco y van cambiando sus formatos en los ejercicios.
+
 ~~~ C++ 
 void prender(int led_prender,int led_prender2,int demora_prender)
 {
