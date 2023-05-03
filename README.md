@@ -38,9 +38,9 @@ void apagar(int led_apagar,int led_apagar2)
 ~~~
 
 ## :nerd_face::point_up: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/broFyKytrz2)
-- [proyecto](https://www.tinkercad.com/things/2M0yWzh2ySP?sharecode=ACJSDkzGYTqVg3j95CuC3yRnId447V-IjvjpmDM6Cdw)
-- [proyecto](https://www.tinkercad.com/things/7hoA5LTjODB?sharecode=lwOiTqhL1yfHqBjdPiJtDTpJFEsl9hjgr2ZMMrzCPIo)
+- [Proyecto-01](https://www.tinkercad.com/things/broFyKytrz2)
+- [Proyecto-02](https://www.tinkercad.com/things/2M0yWzh2ySP?sharecode=ACJSDkzGYTqVg3j95CuC3yRnId447V-IjvjpmDM6Cdw)
+- [Proyecto-03](https://www.tinkercad.com/things/7hoA5LTjODB?sharecode=lwOiTqhL1yfHqBjdPiJtDTpJFEsl9hjgr2ZMMrzCPIo)
 ## :tv: Link al video del proceso
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
 
