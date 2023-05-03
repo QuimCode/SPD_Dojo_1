@@ -15,7 +15,7 @@
 
 
 ## Descripción
-En este parrafo deberan describir que funcion cumple su proyecto. Que solucion esta ofreciendo.
+El proyecto consta de una serie de semaforos funcionales con su propio sistema de tiempo junto con su feedback sonoro (buzzer) funcional y con un pulsador encargado de extender los tiempos de duracion de cruze para peatones.
 
 ## Función principal
 Esta funcion se encarga de encender y apagar los leds.
@@ -24,13 +24,18 @@ B0, B1, B2, B3 son #define que utilizamos para agregar los leds, asociandolo a p
 
 (Breve explicación de la función)
 
-~~~ C (lenguaje en el que esta escrito)
-void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
+~~~ C++ 
+void prender(int led_prender,int led_prender2,int demora_prender)
 {
-  digitalWrite(B3,estado3);
-  digitalWrite(B2,estado2);
-  digitalWrite(B1,estado1);
-  digitalWrite(B0,estado0);
+  digitalWrite(led_prender, HIGH);
+  digitalWrite(led_prender2, HIGH);
+  delay(demora_prender);
+}
+
+void apagar(int led_apagar,int led_apagar2)
+{
+  digitalWrite(led_apagar, LOW);
+  digitalWrite(led_apagar2, LOW);
 }
 ~~~
 
